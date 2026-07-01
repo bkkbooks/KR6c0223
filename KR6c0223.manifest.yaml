@@ -1,0 +1,56 @@
+canonical_identifier: bkk:krp/KR6c0223/v1
+canonical_location: https://kanripo.org/bkk/KR6c0223/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說聖佛母小字般若波羅蜜多經
+  identifiers:
+    alt_id:
+    - T08n0258
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T08/T08n0258.xml
+    old_id: T08n0258
+  edition:
+    short: bkk
+editions:
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0223_000.yaml, hash: 'sha256:d2737727cf3ad2cb959e6f7cd2fd6465854ceea05fb7929aeba92e318e344a45'}
+  - {seq: 1, filename: KR6c0223_001.yaml, hash: 'sha256:8ffe62a31c9251688db65b57dbc45f7dc4e113447d25ce9ee389945595b5e68c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0223_001.markers.yaml, hash: 'sha256:51434da134a4c007985d9e6214560dfb2c44a570327e2053163108ce726973df'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0223_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1460
+  label: '佛說聖佛母小字般若波羅
+
+    蜜多經'
+  type: juan
+  level: 1
+hash: sha256:d45bdb33b6e494e02c9a26e6b5df0a66235a86dd1ac1fbf7beb55415e8cb8d1a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
