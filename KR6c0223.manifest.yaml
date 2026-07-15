@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6c0223/v1
 canonical_location: https://kanripo.org/bkk/KR6c0223/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說聖佛母小字般若波羅蜜多經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6c0223_000.yaml, hash: 'sha256:d2737727cf3ad2cb959e6f7cd2fd6465854ceea05fb7929aeba92e318e344a45'}
-  - {seq: 1, filename: KR6c0223_001.yaml, hash: 'sha256:8ae6cb0c03398603d984af2ad273f9dc85d3a880f4ecfcc99c0ad39af2dfa292'}
+  - {seq: 1, filename: KR6c0223_001.yaml, hash: 'sha256:2b2af1510529d2ab493aaa95ab40f307e829384713ee36147a81ac663c37f15d'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6c0223_000.markers.yaml, hash: 'sha256:70cac3a40a6cb4a6b6995745ee053680984baad0b3e57c9e9d05e580de9c7cb3'}
-  - {seq: 1, role: markers, filename: assets/KR6c0223_001.markers.yaml, hash: 'sha256:e1c1e7629d9c290b19ffd9e90e04f65f415b049362a5e2d4e05e261dcbacc96c'}
+  - {seq: 1, role: markers, filename: assets/KR6c0223_001.markers.yaml, hash: 'sha256:4369e564746dae516f99f5a10ef5e56b74dac169faee639cab1b71d16fb03262'}
 table_of_contents:
 - ref:
     seq: 1
@@ -51,4 +51,7 @@ table_of_contents:
     蜜多經'
   type: juan
   level: 1
-hash: sha256:b10579198fb4dd80167840c015d9d161bb0932311c5b2bca9001e50a91017694
+hash: sha256:b2f7a16e530535623ed5dc89ab28bee6d34e40403abf0f61ff594094373d03db
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
